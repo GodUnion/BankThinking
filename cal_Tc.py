@@ -14,8 +14,8 @@ def total_cost():
     qual = (2*order_cost*demand/holding_cost)**0.5
     if promotion == 1:
         print("กรุณากรอกข้อมูลตามลำดับ")
-        print("1.โปรดใส่ข้อมูลส่วนลดราคาสินค้าต่อชิ้นเป็นร้อยละทศนิยม")
-        print("2.โปรดใส่ปริมาณสินค้า")
+        print("1.ส่วนลดราคาสินค้าต่อชิ้นเป็นร้อยละทศนิยม")
+        print("2.ปริมาณสินค้า")
         pro = float(input())
         qual_new = int(input())
         cal1 = pro*price
