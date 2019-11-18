@@ -19,5 +19,5 @@ def borrow():
     cal_dept = max_money-dept
     cal_bow = (money*cal_per)-dept
     total = (cal_bow*func_low)/func_top
-    print("ความสามารถในการกู้สูงสุดของคุณคือ %.2f"%total)
+    print("ความสามารถในการกู้สูงสุดของคุณคือ %.2f บาท"%total)
 borrow()
