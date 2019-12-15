@@ -1,4 +1,4 @@
-"""ggg"""
+"""chang money"""
 def currencyy():
     """find the currency function"""
     print("โปรกเลือกอัตราการแลกเปลี่ยน)") #อ้างอิงวันที่22พฤศจิกายน2562
